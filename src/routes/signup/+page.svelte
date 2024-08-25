@@ -12,7 +12,7 @@
 	<Section name="login">
 			<div class="p-6 space-y-4 md:space-y-6 sm:p-8">
 				<form class="flex flex-col space-y-3" action="/">
-					<img src="/src/lib/images/boardly-logo.svg" class="me-3 m-1 sm:h-16" alt="Boardly Logo" />
+					<h3 class="text-center text-xl font-medium text-gray-900 dark:text-white p-0">Sign up</h3>
 					<Label class="space-y-2 text-lg">
 						<span>Your Name</span>
 						<Input size="lg" class="font-normal" type="email" name="text" required />

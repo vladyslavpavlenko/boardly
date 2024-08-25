@@ -24,19 +24,19 @@
 		<h3 class="text-4xl font-bold mb-12">Why Boardly?</h3>
 		<div class="max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
 			<div class="flex flex-col items-center">
-				<img src="/src/lib/images/chat-bubble-color.png" alt="Community Icon" class="h-32 mb-2" />
+				<img src="/src/lib/images/chat-bubble-color.png" alt="Community Icon" class="h-32 mb-2 hover:rotate-6" />
 				<h4 class="text-2xl font-semibold mb-2">Strong Community</h4>
 				<p class="text-gray-600">Join a thriving community of board game lovers. Find new friends and enjoy games together.</p>
 			</div>
 
 			<div class="flex flex-col items-center">
-				<img src="/src/lib/images/chess-color.png" alt="Selection Icon" class="h-32 mb-2" />
+				<img src="/src/lib/images/chess-color.png" alt="Selection Icon" class="h-32 mb-2 hover:rotate-6" />
 				<h4 class="text-2xl font-semibold mb-2">Wide Game Selection</h4>
 				<p class="text-gray-600">From modern hits to timeless classics, discover a wide variety of games tailored to your preferences.</p>
 			</div>
 
 			<div class="flex flex-col items-center">
-				<img src="/src/lib/images/map-pin-color.png" alt="Location Icon" class="h-32 mb-2" />
+				<img src="/src/lib/images/map-pin-color.png" alt="Location Icon" class="h-32 mb-2 hover:rotate-6" />
 				<h4 class="text-2xl font-semibold mb-2">Virtual & In-Person</h4>
 				<p class="text-gray-600">Play in person or join a virtual game from the comfort of your home. Flexible options for all.</p>
 			</div>
