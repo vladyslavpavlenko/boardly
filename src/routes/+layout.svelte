@@ -1,10 +1,10 @@
 <script>
 	import Header from '$lib/components/Navbar/Navbar.svelte';
+	import Footer from '$lib/components/Footer/Footer.svelte';
 	import '../app.css';
-	import { Footer } from 'flowbite-svelte';
 </script>
 
-<div class="m-6 font-sans">
+<div class="font-sans min-h-screen bg-gradient-to-bl from-white via-primary-100 to-white relative overflow-hidden">
 	<Header />
 
 	<main>
