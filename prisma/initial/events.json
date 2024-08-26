@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Exploding Kittens & Codenames Night",
+    "description": "Join us for a thrilling evening of Exploding Kittens and Codenames. Enjoy snacks and laughter as we dive into these exciting and hilarious games.",
+    "date": "2024-09-15T19:00:00Z",
+    "locationId": 1,
+    "hostId": 1
+  },
+  {
+    "title": "Catan Strategy Showdown",
+    "description": "Compete in a high-stakes Catan tournament and test your resource management and negotiation skills. The winner will take home a special grand prize!",
+    "date": "2024-09-20T18:00:00Z",
+    "locationId": 2,
+    "hostId": 2
+  },
+  {
+    "title": "Pandemic: Save the World Night",
+    "description": "Join us for a cooperative evening as we team up to save the world in the classic board game Pandemic. Work together, strategize, and see if you can prevent global outbreaks.",
+    "date": "2024-09-25T10:00:00Z",
+    "locationId": 3,
+    "hostId": 3
+  },
+  {
+    "title": "Ticket to Ride & Sushi Go Night",
+    "description": "Embark on a cross-country adventure with Ticket to Ride and enjoy a quick game of Sushi Go between rounds. An evening filled with strategy and fun.",
+    "date": "2024-09-15T18:00:00.000Z",
+    "locationId": 1,
+    "hostId": 1
+  },
+  {
+    "title": "Dominion Deck-Building Duel",
+    "description": "Test your deck-building skills in a competitive Dominion tournament. Strategize, build your deck, and outmaneuver your opponents to claim victory!",
+    "date": "2024-09-22T14:00:00.000Z",
+    "locationId": 5,
+    "hostId": 2
+  }
+]

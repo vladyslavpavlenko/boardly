@@ -1,0 +1,26 @@
+[
+  {
+    "email": "timur@mail.com",
+    "password": "password",
+    "name": "Timur Tkachenko",
+    "avatar": "https://avatars.githubusercontent.com/u/49838571?v=4",
+    "locationId": 1,
+    "userType": "USER"
+  },
+  {
+    "email": "dmytro@mail.com",
+    "password": "password",
+    "name": "Dmytro Ostapenko",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQGPa_RbQ-GuCQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721031464220?e=1730332800&v=beta&t=FYtaY9CgB4G_WeKY8rkkaZE04EgnxxkE3674DTj86hE",
+    "locationId": 2,
+    "userType": "USER"
+  },
+  {
+    "email": "admin@boardly.com",
+    "password": "password",
+    "name": "Vladyslav Pavlenko",
+    "avatar": "https://avatars.githubusercontent.com/u/80064533?v=4",
+    "locationId": null,
+    "userType": "ADMIN"
+  }
+]

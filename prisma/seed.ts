@@ -1,34 +1,44 @@
 // npx tsx ./prisma/seed.ts
 
-import { PrismaClient } from '@prisma/client';
-import userData from './initial_users.json' assert { type: 'json' };
+import { UserType, PrismaClient } from '@prisma/client';
+import usersData from './initial/users.json' assert { type: 'json' };
+import eventsData from './initial/events.json' assert { type: 'json' };
+import locationsData from './initial/locations.json' assert { type: 'json' };
 
 const prisma = new PrismaClient();
 
 async function main() {
-	console.log(`Start seeding ...`);
-
-	for (const p of userData) {
-		const user = await prisma.user.create({
-			data: {
-				name: p.name,
-				email: p.email,
-				password: p.password,
-				userType: p.userType,
-			}
+	// Insert Locations
+	for (const location of locationsData) {
+		await prisma.location.create({
+			data: location,
 		});
-		console.log(`Created user with id: ${user.id}`);
 	}
 
-	console.log(`Seeding finished.`);
+	// Insert Users
+	for (const user of usersData) {
+		await prisma.user.create({
+			data: {
+				...user,
+				userType: user.userType as UserType,
+			},
+		});
+	}
+
+	// Insert Events
+	for (const event of eventsData) {
+		await prisma.event.create({
+			data: event,
+		});
+	}
+
+	console.log('Seeding finished.');
 }
 
 main()
-	.then(async () => {
-		await prisma.$disconnect();
-	})
-	.catch(async (e) => {
+	.catch((e) => {
 		console.error(e);
+	})
+	.finally(async () => {
 		await prisma.$disconnect();
-		process.exit(1);
 	});

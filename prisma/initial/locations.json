@@ -1,0 +1,37 @@
+[
+  {
+    "address": "Velyka Vasylkivska St, 19",
+    "city": "Kyiv",
+    "country": "Ukraine",
+    "latitude": 50.450001,
+    "longitude": 30.523333
+  },
+  {
+    "address": "Hetmana Pavla Skoropadskoho St, 63",
+    "city": "Lozuvatka",
+    "country": "Ukraine",
+    "latitude": 48.0643366,
+    "longitude": 33.295635
+  },
+  {
+    "address": "Khreshchatyk St, 22",
+    "city": "Kyiv",
+    "country": "Ukraine",
+    "latitude": 50.447731,
+    "longitude": 30.520757
+  },
+  {
+    "address": "Shevchenko Blvd, 26",
+    "city": "Cherkasy",
+    "country": "Ukraine",
+    "latitude": 49.444431,
+    "longitude": 32.059767
+  },
+  {
+    "address": "Naberezhna St, 12",
+    "city": "Dnipro",
+    "country": "Ukraine",
+    "latitude": 48.463897,
+    "longitude": 35.045828
+  }
+]
