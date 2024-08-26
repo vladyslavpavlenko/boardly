@@ -17,6 +17,7 @@ model User {
   email          String     @unique
   password       String
   name           String
+  avatar         String
   location       Location?  @relation(fields: [locationId], references: [id])
   hostedEvents   Event[]
   attendedEvents Attendee[]
@@ -32,7 +33,7 @@ model Event {
   description String?
   date        DateTime
   location    Location   @relation(fields: [locationId], references: [id])
-  locationId  Int        @unique
+  locationId  Int
   host        User       @relation(fields: [hostId], references: [id])
   hostId      Int
   attendees   Attendee[]
@@ -48,8 +49,8 @@ model Location {
   latitude  Float
   longitude Float
   createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  event     Event?
+  updatedAt DateTime @default(now())
+  event     Event[]
   User      User[]
 }
 
@@ -59,7 +60,7 @@ model Attendee {
   user      User     @relation(fields: [userId], references: [id])
   userId    Int
   createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  updatedAt DateTime @default(now())
 
   @@id([eventId, userId])
   @@unique([eventId, userId])
