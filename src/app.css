@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 *:focus {
-    @apply focus:ring-0 focus:ring-offset-0;
+	@apply focus:ring-0 focus:ring-offset-0;
 }
